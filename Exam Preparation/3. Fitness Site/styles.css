@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font: 12px/1.5;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 1.5em;
+    background-color: red;
+    
+}
+.socials li a, header, .contacts a, .nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+.socials ul, .nav{
+    list-style: none;
+}
+
+.first-main-container{
+    display: flex;
+    flex-direction: column;  
+}
+
+.nav-container{
+    display: flex;
+    justify-content: end;
+}
+.nav{
+    display: inline-flex;
+    padding-top: 1em;
+    color:white;
+    align-items: end;
+    padding-right: 1.5em;
+}
+
+.nav li a{
+    margin: 2em;
+}
+
+.main-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5em 5em;
+
+}
+
+.main-text h2{
+    padding-bottom: 1em;
+    font-size: 30px;
+    letter-spacing: 0.25em;
+}
+
+.main-text p{
+    padding-bottom: 1em;
+}
+
+.button{
+    background-color: red;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    color: white;
+    text-decoration: none;
+}
+.second-main-container{
+    display: flex;
+    flex-direction: column;
+    padding: 5em 5em;
+}
+
+.second-main-container h3{
+    font-size: 30px;
+    padding-bottom: 1em;
+}
+
+.main-info-align-center :nth-child(2){
+    color: red;
+    padding: 1em 0;
+}
+.main-info{
+    display: flex;
+    justify-content: space-around;
+
+}
+.main-info-align-center{
+    text-align: center;
+}
+.second-main-container img{
+    width: 20%;
+}
+
+.third-main-container{
+    display: flex;
+    flex-direction: column;  
+    padding: 5em 5em;  
+}
+
+h3{
+    text-align: center;
+}
+
+.coaches{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    display: flex;
+    background-color: red;
+    justify-content: end;
+    padding-right: 2em;
+}
+
+/* .main-image{
+    position: absolute;
+    z-index: -1;
+}
+
+.first-main-container{
+    position: relative;
+    z-index: 1;
+} */
+
+.first-main-container {
+    position: relative;
+    background: url("image/fitness-main.jpg") center/cover no-repeat;
+    color: #fff; /* Set text color to ensure visibility */
+    background-position: center top -17em;    
+}

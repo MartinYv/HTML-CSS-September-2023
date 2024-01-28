@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(238, 238, 238);
+}
+
+article{
+    text-align: left;
+    color: rgb(51, 51, 51);
+    width: 56%;
+    margin-left: 20px;
+}
+
+img{
+    width: 500px;
+}
+
+aside{
+  top: 0px;
+  right: 200px;
+  position: absolute;
+}

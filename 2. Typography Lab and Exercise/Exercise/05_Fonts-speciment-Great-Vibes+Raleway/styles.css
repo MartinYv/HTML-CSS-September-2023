@@ -1,0 +1,16 @@
+body{
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1{
+    font-family: Great Vibes, cursive; /*стил*/
+    line-height: 1.2;
+    font-weight: bold;
+     font-style: oblique;  /*наклон */
+}
+
+p{
+    text-align: left;   /*подравняване*/
+}

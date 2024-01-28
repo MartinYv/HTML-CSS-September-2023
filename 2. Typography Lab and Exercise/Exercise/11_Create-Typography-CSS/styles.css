@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.vl {
+    border-left: 6px solid gray;
+    height: 165px;
+    margin-left: 20px;
+  }
+
+  .vl p{
+   padding-left: 20px;
+   padding-top: 20px;
+   font: bold;
+   line-height: 1.0;
+  }
+
+.center{
+    text-align: left;
+    width: 100%;
+}
+
+  th{
+    background-color: #ccc;
+    width:0%;
+  }
+
+  tr:nth-child(odd) {
+    background-color: #f2f2f2;
+ }
+
+  th, td{
+    font-weight: 144px;
+    height: 32px;
+    border: 1px solid;
+    border-color: #ccc;
+  }

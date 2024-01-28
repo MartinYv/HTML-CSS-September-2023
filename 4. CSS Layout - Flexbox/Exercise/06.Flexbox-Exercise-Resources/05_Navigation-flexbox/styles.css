@@ -1,0 +1,26 @@
+body{
+    padding: 2em;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+.line{
+    border-bottom: 1px solid black;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    color: green;
+    margin: 0.5em;
+}
+

@@ -1,0 +1,38 @@
+body{
+    background-color: #eee;
+    display: flex;
+    flex-wrap: wrap;  
+    gap: 1em;
+    padding: 5rem;
+}
+
+header, main, aside, footer{
+    border: 3px solid black;
+    text-transform: uppercase;
+}
+
+header, footer{
+    flex-basis: 100%;
+}
+
+header{
+    padding: 5em 0;
+}
+
+footer{
+    padding: 6em 0;
+}
+
+main, aside{
+    padding: 8em 0;
+}
+
+main{
+    flex: 8 1 40rem;
+    
+}
+    
+aside{
+    flex: 2 1 20rem;
+}
+
